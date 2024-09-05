@@ -1,0 +1,41 @@
+#fullweb {
+  background-color: beige;
+}
+#menu {
+  background-color: lightcoral;
+}
+.about {
+  background-color: antiquewhite;
+}
+.pic {
+  background-color: antiquewhite;
+}
+.b {
+  background-color: #e74c3c;
+  border: 10px;
+}
+.a {
+  background-color: #9b59b6;
+  border: 10px;
+}
+.c {
+  background-color: #8e44ad;
+  border: 10px;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 06px;
+}
+
+::-webkit-scrollbar-track {
+  background: #b3b6b7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #8e44ad);
+  border-radius: 200px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #e74c3c0);
+}
